@@ -174,3 +174,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+.DS_Store
+.vscode/
+.flake8
+ruff.toml
