@@ -1,0 +1,6 @@
+#tasks = ["Walk dog", "Do homework", "Wash dishes", "Go to gym"]
+#write a function that removews a take from the list based on its name
+#dont assume task names are perfectly typed e.g not capitalized or is when it shouldn't be.
+#if task is found remove it and print message. task ____ removed successfully if not found print task not found
+
+list 1 = ["Walk dog", "Do homework", "Wash dishes", "Go to gum"]

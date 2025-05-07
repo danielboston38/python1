@@ -1,0 +1,3 @@
+spy_message = "aHtbeClldoeG"
+
+def decodeSpyName(spy_message):

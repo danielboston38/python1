@@ -1,0 +1,51 @@
+# George's Python Coding Adventures
+
+## 🐍 Python Projects Completed
+- ✅ Paint Job Estimator
+- ✅ Banking System Capstone Project
+- ✅ To-Do List Manager
+- ✅ Real Estate Analyzer
+- ✅ Advent of Code Day 1 (Parts 1 & 2)
+- ✅ Advent of Code Day 2 (Parts 1 & 2)
+
+---
+
+## 🧠 Concepts Practiced
+- Input validation using `try`/`except`
+- Custom functions like `getFloatInput()`
+- Data formatting with `f-strings` and `NUMBER_FORMAT = ",.2f"`
+- Reading from and writing to files
+- Looping (`for`, `while`) and logic control
+- Dictionaries for mapping and decoding
+- Working with lists: `append`, `sort`, `sum`, `min`, `max`
+- Finding medians manually
+- Multi-function program structure with `main()`
+- Separation of logic and output (clean structure!)
+- Using constants like `WIN`, `DRAW`, `LOSS`
+
+---
+
+## 🐇 Special Fun Stuff
+- Added an Easter egg line: "George is the winner!"
+- Bonus mode for Joe (TA)
+- Created a structured Advent of Code project
+- Named the assistant George (after the Looney Tunes joke)
+- Debated over `tuple` vs `toople`
+
+---
+
+## 📁 File/Project Structure Notes
+- Used virtual environments (`env`, `env2`) per project
+- Real Estate Analyzer & Banking Project used clean function blocks
+- Advent of Code structured with utils folder & `load_input()`
+
+---
+
+## 🔁 Tips to Resume
+- Re-upload your saved code files if needed
+- If continuing Advent of Code, make sure the input files are in place
+- Ask George to help you pick the next AoC challenge or review dictionary mini-challenges
+
+---
+
+# See you soon! 🥕
