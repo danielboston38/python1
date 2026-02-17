@@ -27,7 +27,6 @@ def main():#our main code block. calls our functions.
     salesList = []
     while True:
         choice = input("Do you want to enter a value yes or no?").strip().upper()
-            continue
         if choice == "N":
             break
         elif choice == "Y":
@@ -36,8 +35,16 @@ def main():#our main code block. calls our functions.
         else:
             print("Invalid input. Please enter Y or N.")
 
-        for i, sale in enumerate(sorted(salesList), start=1):
-            print(f"Property {i}: ${sale:{NUMBER_FORMAT}}")
+    # If no sales were entered, exit cleanly
+    if not salesList:
+        print("No sales data entered. Exiting the program.")
+        return
+
+    # Print each property’s sale
+    for i, sale in enumerate(sorted(salesList), start=1):
+        print(f"Property {i}: ${sale:{NUMBER_FORMAT}}")
+
+    # Summary of sales
     print(f"{'Lowest sale:':<20}${min(salesList):>15,.2f}")
     print(f"{'Highest sale:':<20}${max(salesList):>15,.2f}")
     fTotal = sum(salesList)
@@ -49,4 +56,6 @@ def main():#our main code block. calls our functions.
     print(f"{'Median sale:':<20}${fMedian:>15,.2f}")
     fCommission = 0.03 * fTotal
     print(f"{'Commission:':<20}${fCommission:>15,.2f}")
-main()
+
+if __name__ == "__main__":
+    main()
