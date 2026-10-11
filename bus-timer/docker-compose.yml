@@ -1,0 +1,8 @@
+services:
+  bus-timer:
+    build: .
+    container_name: bus-timer
+    ports:
+      - "8220:8220"
+    env_file: .env
+    restart: unless-stopped
